@@ -1,3 +1,4 @@
+```
 13:44:27  set DEBUG=ng-packagr:*   && set NG_BUILD_PARALLEL_TS=0   && set NODE_OPTIONS=--max-old-space-size=8192   && pnpm install   && pnpm run build @swl/modal-lib --configuration=production 
 13:44:27  Lockfile is up to date, resolution step is skipped
 13:44:27  Progress: resolved 1, reused 0, downloaded 0, added 0
@@ -79,3 +80,4 @@
 13:45:04  - Compiling with Angular sources in partial compilation mode.
 13:45:07  ✔ Compiling with Angular sources in partial compilation mode.
 13:45:07   ELIFECYCLE  Command failed with exit code 3221226356.
+```
