@@ -1,0 +1,637 @@
+Test 1: Just pnpm build
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+ ELIFECYCLE  Command failed with exit code 3221226356.
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Generating FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:34:49.679Z - Time: 1569ms
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Writing FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:35:01.484Z - Time: 1324ms
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Writing FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:35:05.897Z - Time: 1308ms
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Writing FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:35:09.803Z - Time: 1294ms
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Writing FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:35:13.580Z - Time: 1351ms
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Writing FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:35:17.345Z - Time: 1276ms
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Writing FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:35:21.089Z - Time: 1261ms
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Writing FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:35:24.816Z - Time: 1383ms
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Writing FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:35:29.178Z - Time: 1306ms
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Writing FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:35:33.134Z - Time: 1472ms
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Writing FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:35:36.962Z - Time: 1264ms
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Writing FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:35:40.603Z - Time: 1268ms
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Writing FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:35:44.220Z - Time: 1327ms
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Writing FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:35:48.085Z - Time: 1295ms
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Writing FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:35:51.917Z - Time: 1239ms
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Writing FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:35:56.079Z - Time: 1685ms
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Writing FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:35:59.746Z - Time: 1310ms
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Writing FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:36:03.489Z - Time: 1504ms
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Writing FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:36:07.097Z - Time: 1279ms
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Writing FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:36:11.049Z - Time: 1421ms
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Writing FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:36:14.552Z - Time: 1304ms
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Writing FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:36:18.444Z - Time: 1276ms
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Writing FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:36:22.230Z - Time: 1614ms
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Writing FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:36:25.757Z - Time: 1310ms
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Writing FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:36:29.229Z - Time: 1273ms
+
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Writing FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:36:32.734Z - Time: 1275ms

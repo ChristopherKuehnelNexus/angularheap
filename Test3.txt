@@ -1,0 +1,341 @@
+Test 3: delete .angular, dist and node_modules folder (this is what I observe on our build server as well, it's more likely to crash if you remove the node_modules folder)
+
+PS C:\Source\swl-modal-lib> pnpm install
+Lockfile is up to date, resolution step is skipped
+Packages: +862
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+   ╭──────────────────────────────────────────╮
+   │                                          │
+   │   Update available! 10.28.0 → 10.28.1.   │
+   │   Changelog: https://pnpm.io/v/10.28.1   │
+   │     To update, run: pnpm add -g pnpm     │
+   │                                          │
+   ╰──────────────────────────────────────────╯
+
+Progress: resolved 862, reused 861, downloaded 0, added 862, done
+
+dependencies:
++ @angular-builders/custom-webpack 20.0.0  
++ @angular-devkit/core 20.3.14
++ @angular-devkit/schematics 20.3.14       
++ @angular/common 20.3.16
++ @angular/compiler 20.3.16
++ @angular/core 20.3.16
++ rxjs 7.8.2
++ tslib 2.8.1
++ webpack 5.104.1
++ zone.js 0.15.1
+
+devDependencies:
++ @angular-devkit/build-angular 20.3.14    
++ @angular/cli 20.3.14
++ @angular/compiler-cli 20.3.16
++ @angular/platform-browser 20.3.16        
++ @angular/platform-browser-dynamic 20.3.16
++ @types/node 20.19.30
++ ng-packagr 20.3.2
++ ts-node 10.9.2
++ typescript 5.9.3
++ webpack-cli 6.0.1
+
+╭ Warning ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                    │
+│   Ignored build scripts: @parcel/watcher@2.5.4, esbuild@0.25.12, esbuild@0.25.9, less@4.5.1, lmdb@3.4.2, msgpackr-extract@3.0.3.   │
+│   Run "pnpm approve-builds" to pick which dependencies should be allowed to run scripts.                                           │
+│                                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+Done in 13.3s using pnpm v10.28.0
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+ ELIFECYCLE  Command failed with exit code 3221226356.
+PS C:\Source\swl-modal-lib> pnpm install
+Lockfile is up to date, resolution step is skipped
+Packages: +862
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+Progress: resolved 862, reused 861, downloaded 0, added 862, done
+
+dependencies:
++ @angular-builders/custom-webpack 20.0.0
++ @angular-devkit/core 20.3.14
++ @angular-devkit/schematics 20.3.14
++ @angular/common 20.3.16
++ @angular/compiler 20.3.16
++ @angular/core 20.3.16
++ rxjs 7.8.2
++ tslib 2.8.1
++ webpack 5.104.1
++ zone.js 0.15.1
+
+devDependencies:
++ @angular-devkit/build-angular 20.3.14
++ @angular/cli 20.3.14
++ @angular/compiler-cli 20.3.16
++ @angular/platform-browser 20.3.16
++ @angular/platform-browser-dynamic 20.3.16
++ @types/node 20.19.30
++ ng-packagr 20.3.2
++ ts-node 10.9.2
++ typescript 5.9.3
++ webpack-cli 6.0.1
+
+╭ Warning ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                    │
+│   Ignored build scripts: @parcel/watcher@2.5.4, esbuild@0.25.12, esbuild@0.25.9, less@4.5.1, lmdb@3.4.2, msgpackr-extract@3.0.3.   │
+│   Run "pnpm approve-builds" to pick which dependencies should be allowed to run scripts.                                           │
+│                                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+Done in 9.8s using pnpm v10.28.0
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+ ELIFECYCLE  Command failed with exit code 3221226356.
+PS C:\Source\swl-modal-lib> pnpm install
+Lockfile is up to date, resolution step is skipped
+Packages: +862
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+Progress: resolved 862, reused 861, downloaded 0, added 862, done
+
+dependencies:
++ @angular-builders/custom-webpack 20.0.0
++ @angular-devkit/core 20.3.14
++ @angular-devkit/schematics 20.3.14
++ @angular/common 20.3.16
++ @angular/compiler 20.3.16
++ @angular/core 20.3.16
++ rxjs 7.8.2
++ tslib 2.8.1
++ webpack 5.104.1
++ zone.js 0.15.1
+
+devDependencies:
++ @angular-devkit/build-angular 20.3.14
++ @angular/cli 20.3.14
++ @angular/compiler-cli 20.3.16
++ @angular/platform-browser 20.3.16
++ @angular/platform-browser-dynamic 20.3.16
++ @types/node 20.19.30
++ ng-packagr 20.3.2
++ ts-node 10.9.2
++ typescript 5.9.3
++ webpack-cli 6.0.1
+
+╭ Warning ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                    │
+│   Ignored build scripts: @parcel/watcher@2.5.4, esbuild@0.25.12, esbuild@0.25.9, less@4.5.1, lmdb@3.4.2, msgpackr-extract@3.0.3.   │
+│   Run "pnpm approve-builds" to pick which dependencies should be allowed to run scripts.                                           │
+│                                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+Done in 11.1s using pnpm v10.28.0
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Generating FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:45:11.912Z - Time: 2299ms
+
+PS C:\Source\swl-modal-lib> pnpm install
+Lockfile is up to date, resolution step is skipped
+Packages: +862
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+Progress: resolved 862, reused 861, downloaded 0, added 862, done
+
+dependencies:
++ @angular-builders/custom-webpack 20.0.0
++ @angular-devkit/core 20.3.14
++ @angular-devkit/schematics 20.3.14
++ @angular/common 20.3.16
++ @angular/compiler 20.3.16
++ @angular/core 20.3.16
++ rxjs 7.8.2
++ tslib 2.8.1
++ webpack 5.104.1
++ zone.js 0.15.1
+
+devDependencies:
++ @angular-devkit/build-angular 20.3.14
++ @angular/cli 20.3.14
++ @angular/compiler-cli 20.3.16
++ @angular/platform-browser 20.3.16
++ @angular/platform-browser-dynamic 20.3.16
++ @types/node 20.19.30
++ ng-packagr 20.3.2
++ ts-node 10.9.2
++ typescript 5.9.3
++ webpack-cli 6.0.1
+
+╭ Warning ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                    │
+│   Ignored build scripts: @parcel/watcher@2.5.4, esbuild@0.25.12, esbuild@0.25.9, less@4.5.1, lmdb@3.4.2, msgpackr-extract@3.0.3.   │
+│   Run "pnpm approve-builds" to pick which dependencies should be allowed to run scripts.                                           │
+│                                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+Done in 9.1s using pnpm v10.28.0
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Generating FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:45:53.738Z - Time: 2222ms
+
+PS C:\Source\swl-modal-lib> pnpm install
+Lockfile is up to date, resolution step is skipped
+Packages: +862
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+Progress: resolved 862, reused 861, downloaded 0, added 862, done
+
+dependencies:
++ @angular-builders/custom-webpack 20.0.0
++ @angular-devkit/core 20.3.14
++ @angular-devkit/schematics 20.3.14
++ @angular/common 20.3.16
++ @angular/compiler 20.3.16
++ @angular/core 20.3.16
++ rxjs 7.8.2
++ tslib 2.8.1
++ webpack 5.104.1
++ zone.js 0.15.1
+
+devDependencies:
++ @angular-devkit/build-angular 20.3.14
++ @angular/cli 20.3.14
++ @angular/compiler-cli 20.3.16
++ @angular/platform-browser 20.3.16
++ @angular/platform-browser-dynamic 20.3.16
++ @types/node 20.19.30
++ ng-packagr 20.3.2
++ ts-node 10.9.2
++ typescript 5.9.3
++ webpack-cli 6.0.1
+
+╭ Warning ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                    │
+│   Ignored build scripts: @parcel/watcher@2.5.4, esbuild@0.25.12, esbuild@0.25.9, less@4.5.1, lmdb@3.4.2, msgpackr-extract@3.0.3.   │
+│   Run "pnpm approve-builds" to pick which dependencies should be allowed to run scripts.                                           │
+│                                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+Done in 9.7s using pnpm v10.28.0
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+✔ Generating FESM and DTS bundles
+✔ Copying assets
+✔ Writing package manifest
+✔ Built @swl/modal-lib
+
+------------------------------------------------------------------------------
+Built Angular Package
+- from: C:/Source/swl-modal-lib/projects/swl/modal-lib
+- to:   C:/Source/swl-modal-lib/dist/swl/modal-lib
+------------------------------------------------------------------------------
+
+Build at: 2026-01-21T12:46:38.750Z - Time: 2265ms
+
+PS C:\Source\swl-modal-lib> pnpm install
+Lockfile is up to date, resolution step is skipped
+Packages: +862
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+Progress: resolved 862, reused 861, downloaded 0, added 862, done
+
+dependencies:
++ @angular-builders/custom-webpack 20.0.0
++ @angular-devkit/core 20.3.14
++ @angular-devkit/schematics 20.3.14
++ @angular/common 20.3.16
++ @angular/compiler 20.3.16
++ @angular/core 20.3.16
++ rxjs 7.8.2
++ tslib 2.8.1
++ webpack 5.104.1
++ zone.js 0.15.1
+
+devDependencies:
++ @angular-devkit/build-angular 20.3.14
++ @angular/cli 20.3.14
++ @angular/compiler-cli 20.3.16
++ @angular/platform-browser 20.3.16
++ @angular/platform-browser-dynamic 20.3.16
++ @types/node 20.19.30
++ ng-packagr 20.3.2
++ ts-node 10.9.2
++ typescript 5.9.3
++ webpack-cli 6.0.1
+
+╭ Warning ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                    │
+│   Ignored build scripts: @parcel/watcher@2.5.4, esbuild@0.25.12, esbuild@0.25.9, less@4.5.1, lmdb@3.4.2, msgpackr-extract@3.0.3.   │
+│   Run "pnpm approve-builds" to pick which dependencies should be allowed to run scripts.                                           │
+│                                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+Done in 9.9s using pnpm v10.28.0
+PS C:\Source\swl-modal-lib> pnpm build
+
+> swl-modal-lib@0.0.0 build C:\Source\swl-modal-lib
+> ng build
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@swl/modal-lib'
+------------------------------------------------------------------------------
+✔ Compiling with Angular sources in partial compilation mode.
+ ELIFECYCLE  Command failed with exit code 3221226356.
